@@ -2,7 +2,7 @@
 gets top post &amp; downloads it
 
 Simply change your `python r.get_subreddit('yourSubredditHere')`
-and `/your/path/to/wallpaper/wp_` *same paragraph*
+and `/your/path/to/wallpaper/wp_`
 
 ***
 
