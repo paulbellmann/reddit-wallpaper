@@ -14,7 +14,5 @@ def getImage():
 	myPath = "/home/pi/Pictures/Wallpaper/wp_" + str(submission.id) + ".jpg"
 
 	if not os.path.isfile(myPath):
-		urllib.urlretrieve(submission.url, myPath)
-		print submission.title + " saved!"
 
 getImage()
