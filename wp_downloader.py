@@ -5,7 +5,7 @@ import praw
 import urllib
 import os.path
 
-r = praw.Reddit(user_agent='wallpaper downloader /u/pwneed')
+r = praw.Reddit(user_agent='wallpaper downloader /u/user')
 
 def getImage():
 	submissions = r.get_subreddit('wallpaper').get_top_from_day(limit=1)
